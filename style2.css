@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    background: black;
+    cursor: crosshair;
+    height: 100%;
+    width: 100%;
+}
+
+.bg img{
+    position: absolute;
+    height: 140vh;
+    width:100%;
+}
+
+.header {
+    position: absolute;
+    font-family: 'Yusei Magic';
+    font-size: 8vh;
+    padding-left: 3vh;
+    padding-top: 0vh;
+    color: rgb(234, 227, 227);
+}
+
+.intro {
+    position: absolute;
+    font-family: 'Yusei Magic';
+    font-size: 7vh;
+    padding-left: 3vh;
+    padding-top: 11vh;
+    color: rgb(238, 255, 0);
+}
+
+.congrats {
+    position: absolute;
+    font-family: 'Kalam';
+    font-size: 3.1vh;
+    padding-left: 3vh;
+    padding-top: 38vh;
+    padding-right: 2.5vh;
+    color: rgb(11, 11, 11);
+    font-weight: 100;
+}
+

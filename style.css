@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&family=Merienda:wght@300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+    height: 100%;
+    min-height: 250vh;
+}
+
+canvas {
+    display: block
+}
+
+.heading{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e69326;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+.name {
+    width: auto;
+    height: auto;
+    padding-top: 28vh;
+    /* padding-left: 30vw; */
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 13vh;
+    color: rgb(243, 240, 247);
+    font-family: 'Merienda';
+}
+h4 {
+    position: absolute;
+    top: 55vh;
+    color: rgb(243, 249, 73);
+    left: 20px;
+    right: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Kalam';
+}
+h3 {
+    position: absolute;
+    top: 75vh;
+    color: rgba(255, 0, 0, 0.797);
+    left: 20px;
+    right: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+}
+
+.para {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 139, 3);
+    left: 12vw;
+    right: 9vw;
+    top: 151vh;
+    font-family: 'Satisfy';
+    font-size: 6vw;
+}
+.wishes-doremon{
+    position: absolute;
+    width: 80%;
+    left: 10vw;
+    right: 10vw;
+    top: 173vh;
+}
+.link1 {
+    position: absolute;
+    height: 40vw;
+    width: 50vw;
+    color: rgb(251, 255, 0);
+    background-color: rgb(134, 5, 5);
+    border-radius: 20px;
+    font-size: 7vw;
+    top: 225vh;
+    left: 12vh;
+}
+.link2 {
+    position: absolute;
+    height: 40vw;
+    width: 50vw;
+    color: yellow;
+    background-color: rgb(4, 54, 120);
+    border-radius: 20px;
+    font-size: 7vw;
+    top: 255vh;
+    left: 12vh;
+}
+
+
+.link4 {
+    position: absolute;
+    height: 40vw;
+    width: 50vw;
+    color: rgb(234, 242, 24);
+    background-color: #116e22;
+    border-radius: 20px;
+    font-size: 7vw;
+    top: 255vh;
+    left: 12vh
+        pointer-events: auto; /* Allow clicking */
+        opacity: 1; /* Ensure it's visible */
+}
+.link5 {
+    position: absolute;
+    height: 40vw;
+    width: 50vw;
+    color: rgb(234, 242, 24);
+    background-color: #1adcea;
+    border-radius: 20px;
+    font-size: 7vw;
+    top: 255vh;
+    left: 12vh
+        pointer-events: auto; /* Allow clicking */
+        opacity: 1; /* Ensure it's visible */
+}
+
+    /* Style for all buttons */
+button {
+    background-color: #ff6600; /* Orange color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for all buttons */
+button:hover {
+    background-color: #cc5500; /* Darker orange */
+}
+
+/* Individual styling for the new button */
+.link4 {
+    background-color: #008CBA; /* Blue color */
+}
+
+button:hover {
+    background-color: #cc5500; /* Darker orange */
+}
+
+/* Individual styling for the new button */
+.link3 {
+    background-color: #008CBA; /* Blue color */
+}
+
+/* Hover effect for the new button */
+.link4:hover {
+    background-color: #0c881d; /* Darker blue */
+}
+button:hover {
+    background-color: #cc5500; /* Darker orange */
+}
+
+/* Individual styling for the new button */
+.link6 {
+    background-color: #d0193d; /* Blue color */
+}
+
+/* Hover effect for the new button */
+.link5:hover:hover {
+    background-color: #bb25c3; /* Darker blue */
+}
+
+.cake {
+    position: absolute;
+    width: 85vw;
+    left: 5vw;
+    right: 20vw;
+    top: 290vh;
+}
+
+.image {
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 100vh;
+    left: 6vw;
+    right: 6vw;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Space after text */
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 90%; /* Makes video responsive */
+    max-width: 400px; /* Limits max size */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
